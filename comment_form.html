@@ -1,0 +1,51 @@
+<form method="get" enctype=" " action=" ">
+
+<p>
+<label>Name
+<input type="text" name="customer_name" required>
+</label> 
+</p>
+
+<p>
+<label>Phone 
+<input type="tel" name="phone_number">
+</label>
+</p>
+
+<p>
+<label>Email 
+<input type="email" name="email_address">
+</label>
+</p>
+
+
+<p>
+<label>Comment:
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+
+<fieldset>
+<legend>Options</legend>
+<p><label> <input type="radio" name="taxi" required value="car"> Business </label></p>
+<p><label> <input type="radio" name="taxi" required value="van"> New </label></p>
+<p><label> <input type="radio" name="taxi" required value="tuktuk"> Entertainment </label></p>
+</fieldset>
+
+<fieldset>
+<legend>Extras</legend>
+<p><label> <input type="checkbox" name="extras" value="baby"> Baby Seat </label></p>
+<p><label> <input type="checkbox" name="extras" value="wheelchair"> Wheelchair Access </label></p>
+<p><label> <input type="checkbox" name="extras" value="tip"> Stock Tip </label></p>
+</fieldset>
+
+<p>
+<label>Pickup Date/Time
+<input type="datetime-local" name="pickup_time" required>
+</label>
+</p>
+	
+
+<p><button>Submit Comment</button></p>
+
+</form>
